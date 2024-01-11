@@ -12,13 +12,11 @@ This project was inspired by my sudden interest in ZeroTier framework as well as
 The project is not yet published to maven central. SOON
 
 The api uses:
-  • [Jsoup](http://square.github.io/okhttp/) for HTML parsing.
+  • [Jsoup](https://github.com/jhy/jsoup) for HTML parsing.
   • [Gson](https://github.com/google/gson) for JSON.
 
 
 ## Features
-The [`ZTService`](src/main/java/com/github/edouardswiac/zerotier/ZTService.java) interface describes the service and its available methods. The provided implementation, [`ZTServiceImpl`](src/main/java/com/github/edouardswiac/zerotier/ZTServiceImpl.java), makes HTTP requests to ZeroTier's Central REST API.
-
 What you can achieve with ZeroTier-JW:
 - ***status*** query the status of ZeroTier, as well as the status of members
 - ***member*** create a member, update a member, and delete a member.
